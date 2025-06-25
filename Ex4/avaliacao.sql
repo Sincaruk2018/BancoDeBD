@@ -1,4 +1,4 @@
-Tabela Avalia (corrigindo nome para Avaliacao)
+--Tabela Avalia (corrigindo nome para Avaliacao)
 CREATE TABLE Avaliacao (
     IdAvaliacao INT AUTO_INCREMENT PRIMARY KEY,
     Comentario TEXT,
