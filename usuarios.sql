@@ -1,0 +1,35 @@
+CREATE TABLE Usuario (
+    IdUsuario INT PRIMARY KEY,
+    Nome VARCHAR(50),
+    Sobrenome VARCHAR(50),
+    NumTelefone VARCHAR(20),
+    DataNasc DATE,
+    Sexo CHAR(1),
+    email VARCHAR(100),
+    Senha VARCHAR(50),
+    Cidade VARCHAR(50),
+    Rua VARCHAR(100),
+    Numero INT
+);
+
+INSERT INTO Usuario (IdUsuario, Nome, Sobrenome, NumTelefone, DataNasc, Sexo, email, Senha, Cidade, Rua, Numero) VALUES
+(1, 'João', 'Silva', '(11) 98765-4321', '1995-03-15', 'M', 'joao.silva@email.com', 'senha123', 'São Paulo', 'Rua A', 100),
+(2, 'Maria', 'Santos', '(11) 98765-4322', '1996-05-20', 'F', 'maria.santos@email.com', 'senha456', 'Rio de Janeiro', 'Rua B', 200),
+(3, 'Carlos', 'Oliveira', '(11) 98765-4323', '1994-07-10', 'M', 'carlos.oliveira@email.com', 'senha789', 'Belo Horizonte', 'Rua C', 300),
+(4, 'Ana', 'Pereira', '(11) 98765-4324', '1997-09-25', 'F', 'ana.pereira@email.com', 'senha101', 'Porto Alegre', 'Rua D', 400),
+(5, 'Pedro', 'Costa', '(11) 98765-4325', '1993-11-30', 'M', 'pedro.costa@email.com', 'senha202', 'Curitiba', 'Rua E', 500),
+(6, 'Lucia', 'Martins', '(11) 98765-4326', '1998-01-05', 'F', 'lucia.martins@email.com', 'senha303', 'Recife', 'Rua F', 600),
+(7, 'Fernando', 'Rocha', '(11) 98765-4327', '1992-04-12', 'M', 'fernando.rocha@email.com', 'senha404', 'Salvador', 'Rua G', 700),
+(8, 'Juliana', 'Almeida', '(11) 98765-4328', '1999-06-18', 'F', 'juliana.almeida@email.com', 'senha505', 'Fortaleza', 'Rua H', 800),
+(9, 'Ricardo', 'Lima', '(11) 98765-4329', '1991-08-22', 'M', 'ricardo.lima@email.com', 'senha606', 'Manaus', 'Rua I', 900),
+(10, 'Amanda', 'Souza', '(11) 98765-4330', '2000-10-28', 'F', 'amanda.souza@email.com', 'senha707', 'Brasília', 'Rua J', 1000),
+(11, 'Roberto', 'Barbosa', '(11) 98765-4331', '1990-12-03', 'M', 'roberto.barbosa@email.com', 'senha808', 'Goiânia', 'Rua K', 1100),
+(12, 'Patricia', 'Ferreira', '(11) 98765-4332', '2001-02-08', 'F', 'patricia.ferreira@email.com', 'senha909', 'Belém', 'Rua L', 1200),
+(13, 'Marcos', 'Gomes', '(11) 98765-4333', '1989-04-14', 'M', 'marcos.gomes@email.com', 'senha010', 'Natal', 'Rua M', 1300),
+(14, 'Cristina', 'Dias', '(11) 98765-4334', '2002-06-19', 'F', 'cristina.dias@email.com', 'senha111', 'Vitória', 'Rua N', 1400),
+(15, 'Gustavo', 'Carvalho', '(11) 98765-4335', '1988-08-24', 'M', 'gustavo.carvalho@email.com', 'senha212', 'Florianópolis', 'Rua O', 1500),
+(16, 'Sandra', 'Cardoso', '(11) 98765-4336', '2003-10-29', 'F', 'sandra.cardoso@email.com', 'senha313', 'Campo Grande', 'Rua P', 1600),
+(17, 'Eduardo', 'Mendes', '(11) 98765-4337', '1987-12-04', 'M', 'eduardo.mendes@email.com', 'senha414', 'Cuiabá', 'Rua Q', 1700),
+(18, 'Tatiana', 'Nunes', '(11) 98765-4338', '2004-02-09', 'F', 'tatiana.nunes@email.com', 'senha515', 'João Pessoa', 'Rua R', 1800),
+(19, 'Felipe', 'Ribeiro', '(11) 98765-4339', '1986-04-15', 'M', 'felipe.ribeiro@email.com', 'senha616', 'Maceió', 'Rua S', 1900),
+(20, 'Vanessa', 'Monteiro', '(11) 98765-4340', '2005-06-20', 'F', 'vanessa.monteiro@email.com', 'senha717', 'Teresina', 'Rua T', 2000);
