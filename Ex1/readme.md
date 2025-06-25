@@ -24,8 +24,8 @@ Turma: entidade fraca de disciplina, porém, a matrícula é feita em cima dela 
 intuito de registrar em qual turma o aluno está, caso contrário não seria possível.
 
 
-Disciplina: É uma entidade fraca, pois ela depende de curso para existir. Uma disciplina
-pode ser requisito de outras.
+Disciplina: <s>É uma entidade fraca, pois ela depende de curso para existir. Uma disciplina
+pode ser requisito de outras.</s> Decidimos que ela deveria ser forte para economizar tempo de busca.
 
 Ementa: Conjunto de disciplinas relatadas ao curso. Possui estas como forma de listagem e
 para ajudar a saber se o curso está concluído.
