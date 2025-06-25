@@ -4,7 +4,7 @@ CREATE TABLE Usuario (
     Sobrenome VARCHAR(50),
     NumTelefone VARCHAR(20),
     DataNasc DATE,
-    Sexo CHAR(1),
+    Sexo CHAR(2),
     email VARCHAR(100),
     Senha VARCHAR(50),
     Cidade VARCHAR(50),
